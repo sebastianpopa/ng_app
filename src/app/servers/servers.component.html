@@ -1,5 +1,9 @@
 <h1>This is servers.component</h1>
-<button class="btn btn-primary" [disabled]="!allowNewServer">Add Server</button>
+<label>Server Name</label>
+<input type="text" class="form-control" (input)="onUpdateServerName($event)">
+<p>{{ serverName }}</p>
+<p [innerText]="serverCreated"></p>
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onServerCreation()">Add Server</button>
 <server-root></server-root>
 <server-root></server-root>
 
