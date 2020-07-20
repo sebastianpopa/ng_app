@@ -24,6 +24,5 @@
       <p>No server has been created so far.</p>
   </ng-template>
 
-  <server-root></server-root>
-  <server-root></server-root>
+  <server-root *ngFor="let server of servers"></server-root>
 </div>
