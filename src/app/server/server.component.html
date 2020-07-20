@@ -1,4 +1,4 @@
 <hr />
 <h3>This is server.component</h3>
-    <p>{{ 'Server' }} with ID: {{ serverId }} is currently {{ getServerStatus() }} ----</p>
+    <p [ngStyle]="{color:getColor()}">{{ 'Server' }} with ID: {{ serverId }} is currently {{ getServerStatus() }} ----</p>
 <hr />
