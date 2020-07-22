@@ -13,6 +13,8 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { ModFiveComponent } from './mod-five/mod-five.component';
+import { CockpitComponent } from './mod-five/cockpit/cockpit.component';
+import { ServerElementComponent } from './mod-five/server-element/server-element.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { ModFiveComponent } from './mod-five/mod-five.component';
     ShoppingListComponent,
     ShoppingEditComponent,
     ModFiveComponent,
+    CockpitComponent,
+    ServerElementComponent,
   ],
   imports: [
     BrowserModule,
