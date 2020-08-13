@@ -15,6 +15,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { ModFiveComponent } from './mod-five/mod-five.component';
 import { CockpitComponent } from './mod-five/cockpit/cockpit.component';
 import { ServerElementComponent } from './mod-five/server-element/server-element.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ServerElementComponent } from './mod-five/server-element/server-element
     ModFiveComponent,
     CockpitComponent,
     ServerElementComponent,
+    DropdownDirective,
   ],
   imports: [
     BrowserModule,
