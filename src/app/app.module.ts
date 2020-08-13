@@ -16,6 +16,7 @@ import { ModFiveComponent } from './mod-five/mod-five.component';
 import { CockpitComponent } from './mod-five/cockpit/cockpit.component';
 import { ServerElementComponent } from './mod-five/server-element/server-element.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { ShoppingListService } from './shopping-list/shopping-list.service';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
