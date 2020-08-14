@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
@@ -12,17 +10,12 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
-import { ModFiveComponent } from './mod-five/mod-five.component';
-import { CockpitComponent } from './mod-five/cockpit/cockpit.component';
-import { ServerElementComponent } from './mod-five/server-element/server-element.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent,
     HeaderComponent,
     RecipesComponent,
     RecipeListComponent,
@@ -30,9 +23,6 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    ModFiveComponent,
-    CockpitComponent,
-    ServerElementComponent,
     DropdownDirective,
   ],
   imports: [
